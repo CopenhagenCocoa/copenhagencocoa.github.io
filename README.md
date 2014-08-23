@@ -9,3 +9,8 @@ The site uses static HTML. The css is written with <a href="http://sass-lang.org
 ```shell
 sass --watch assets/css/main.scss:assets/css/main.css
 ```
+
+## To be done
+
+* Show the date and location of the next event from Meetup
+* Get an icon
