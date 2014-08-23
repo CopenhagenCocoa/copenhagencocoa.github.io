@@ -1,0 +1,47 @@
+* {
+  -webkit-box-sizing: border-box;
+  -moz-box-sizing: border-box;
+  box-sizing: border-box; }
+
+body {
+  -webkit-font-smoothing: subpixel-antialiased; }
+
+body, p, a, span, h1, h2, h3, li {
+  font-family: "Helvetica Neue", Helvetica, sans-serif; }
+
+img {
+  max-width: 100% !important;
+  height: auto;
+  display: inline-block; }
+
+h1 {
+  font-size: 62pt;
+  line-height: 62pt;
+  font-weight: 200; }
+
+h2 {
+  font-size: 60pt;
+  line-height: 58pt;
+  font-weight: 200;
+  margin-bottom: 0; }
+
+h3 {
+  font-size: 38pt;
+  font-weight: 200;
+  line-height: 50pt;
+  text-align: center;
+  margin-bottom: 30px; }
+
+p {
+  font-size: 14pt;
+  line-height: 24pt;
+  font-weight: 200; }
+
+.int-container {
+  max-width: 1020px;
+  margin-left: auto;
+  margin-right: auto; }
+  .int-container:after {
+    content: "";
+    display: table;
+    clear: both; }

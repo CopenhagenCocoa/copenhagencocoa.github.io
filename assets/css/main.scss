@@ -1,0 +1,50 @@
+@import "vendor/bourbon/bourbon";
+$max-width: 1020px;
+@import "vendor/neat/neat";
+
+$dfont: "Helvetica Neue", Helvetica, sans-serif;
+
+body {
+    -webkit-font-smoothing: subpixel-antialiased;
+}
+
+body, p, a, span, h1, h2, h3, li {
+	font-family: $dfont;
+}
+
+img {
+	max-width:100% !important;
+	height:auto;
+    display:inline-block;
+}
+
+h1 {
+	font-size: 62pt;
+	line-height: 62pt;
+	font-weight: 200;
+}
+
+h2 {
+	font-size: 60pt;
+	line-height: 58pt;
+	font-weight: 200;
+	margin-bottom: 0;
+}
+
+h3 {
+	font-size: 38pt;
+	font-weight: 200;
+	line-height: 50pt;
+	text-align: center;
+	margin-bottom: 30px;
+}
+
+p {
+	font-size: 14pt;
+	line-height: 24pt;
+	font-weight: 200;
+}
+
+.int-container {
+	@include outer-container;
+}
