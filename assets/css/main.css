@@ -17,7 +17,8 @@ img {
 h1 {
   font-size: 62pt;
   line-height: 62pt;
-  font-weight: 200; }
+  font-weight: 200;
+  margin-bottom: 20px; }
 
 h2 {
   font-size: 60pt;
@@ -29,13 +30,20 @@ h3 {
   font-size: 38pt;
   font-weight: 200;
   line-height: 50pt;
-  text-align: center;
-  margin-bottom: 30px; }
+  margin-bottom: 0; }
+
+h1 + p, h2 + p, h3 + p {
+  margin: 5px; }
 
 p {
   font-size: 14pt;
   line-height: 24pt;
   font-weight: 200; }
+
+a, a:visited, a:active {
+  color: blue; }
+  a:hover, a:visited:hover, a:active:hover {
+    color: purple; }
 
 .int-container {
   max-width: 1020px;
@@ -45,3 +53,13 @@ p {
     content: "";
     display: table;
     clear: both; }
+
+.tagline {
+  color: #666;
+  font-style: italic;
+  font-size: 16pt;
+  line-height: 16pt;
+  margin-top: 0; }
+
+.links {
+  margin-top: 30px; }
