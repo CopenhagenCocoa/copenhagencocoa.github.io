@@ -41,7 +41,7 @@ h3 {
 
 h1, h2, h3 {
 	& + p {
-		margin: 5px;
+		margin: 5px 0;
 	}
 }
 
@@ -76,4 +76,22 @@ a, a:visited, a:active {
 	// list-style: none;
 	margin-top: 10px;
 	// padding: 0;
+}
+
+@include media(max-width 400px) {
+	h2 {
+		font-size:24pt;
+		line-height: 30pt;
+	}
+
+	p {
+		font-size: 13pt;
+		line-height: 21pt;
+	}
+
+	.tagline {
+		font-size: 12pt;
+		line-height: 18pt;
+		text-align: center;
+	}
 }
