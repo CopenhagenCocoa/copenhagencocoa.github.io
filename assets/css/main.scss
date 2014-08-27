@@ -26,16 +26,16 @@ h1 {
 }
 
 h2 {
-	font-size: 60pt;
-	line-height: 58pt;
+	font-size: 38pt;
+	line-height: 50pt;
 	font-weight: 200;
 	margin-bottom: 0;
 }
 
 h3 {
-	font-size: 38pt;
+	font-size: 24pt;
 	font-weight: 200;
-	line-height: 50pt;
+	line-height: 30pt;
 	margin-bottom: 0;
 }
 
@@ -52,12 +52,13 @@ p {
 }
 
 a, a:visited, a:active {
-	color: blue;
+	color: #ff4623;
 
 	&:hover {
-		color: purple;
+		color: #666;
 	}
 }
+
 
 .int-container {
 	@include outer-container;
@@ -73,6 +74,6 @@ a, a:visited, a:active {
 
 .links {
 	// list-style: none;
-	margin-top: 30px;
+	margin-top: 10px;
 	// padding: 0;
 }
