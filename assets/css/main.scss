@@ -59,7 +59,6 @@ a, a:visited, a:active {
 	}
 }
 
-
 .int-container {
 	@include outer-container;
 }
@@ -76,6 +75,12 @@ a, a:visited, a:active {
 	// list-style: none;
 	margin-top: 10px;
 	// padding: 0;
+}
+
+.logo {
+	display: block;
+	margin-top: 30px;
+	margin-bottom: 10px;
 }
 
 @include media(max-width 400px) {
